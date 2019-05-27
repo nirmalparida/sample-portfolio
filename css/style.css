@@ -270,6 +270,11 @@ header .header-projects {
         color: #000;
         text-transform: uppercase;
     }
+    header::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
 }
 
 
@@ -382,6 +387,11 @@ header .header-projects {
         background-size: cover;
         text-shadow: 4px 4px 10px #111;
         cursor: pointer;
+    }
+    .boxes::after {
+        content: "";
+        display: block;
+        clear: both;
     }
 }
 
@@ -513,6 +523,12 @@ footer .projects {
     text-align: center;
     color: white;
     font-size: 12px;
+}
+
+footer::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 @media only screen and (min-width: 1000px) {
